@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A942F7215A396B30079EAE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A942F7115A396B30079EAE3 /* UIKit.framework */; };
+		5A942F7415A396B30079EAE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A942F7315A396B30079EAE3 /* Foundation.framework */; };
+		5A942F7615A396B30079EAE3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A942F7515A396B30079EAE3 /* CoreGraphics.framework */; };
+		5A942F7C15A396B30079EAE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A942F7A15A396B30079EAE3 /* InfoPlist.strings */; };
+		5A942F7E15A396B30079EAE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A942F7D15A396B30079EAE3 /* main.m */; };
+		5A942F8215A396B30079EAE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A942F8115A396B30079EAE3 /* AppDelegate.m */; };
+		5A942F8515A396B30079EAE3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A942F8315A396B30079EAE3 /* MainStoryboard_iPhone.storyboard */; };
+		5A942F8815A396B40079EAE3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A942F8615A396B40079EAE3 /* MainStoryboard_iPad.storyboard */; };
+		5A942F8B15A396B40079EAE3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A942F8A15A396B40079EAE3 /* FirstViewController.m */; };
+		5A942F8D15A396B40079EAE3 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A942F8C15A396B40079EAE3 /* first.png */; };
+		5A942F8F15A396B40079EAE3 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A942F8E15A396B40079EAE3 /* first@2x.png */; };
+		5A942F9215A396B40079EAE3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A942F9115A396B40079EAE3 /* SecondViewController.m */; };
+		5A942F9415A396B40079EAE3 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A942F9315A396B40079EAE3 /* second.png */; };
+		5A942F9615A396B40079EAE3 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A942F9515A396B40079EAE3 /* second@2x.png */; };
+		5A942F9E15A396B40079EAE3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A942F9D15A396B40079EAE3 /* SenTestingKit.framework */; };
+		5A942F9F15A396B40079EAE3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A942F7115A396B30079EAE3 /* UIKit.framework */; };
+		5A942FA015A396B40079EAE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A942F7315A396B30079EAE3 /* Foundation.framework */; };
+		5A942FA815A396B40079EAE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A942FA615A396B40079EAE3 /* InfoPlist.strings */; };
+		5A942FAB15A396B40079EAE3 /* Three_Panel_Soul_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A942FAA15A396B40079EAE3 /* Three_Panel_Soul_iOSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A942FA115A396B40079EAE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A942F6415A396B30079EAE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A942F6C15A396B30079EAE3;
+			remoteInfo = "Three Panel Soul iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A942F6D15A396B30079EAE3 /* Three Panel Soul iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Three Panel Soul iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A942F7115A396B30079EAE3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5A942F7315A396B30079EAE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5A942F7515A396B30079EAE3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5A942F7915A396B30079EAE3 /* Three Panel Soul iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Three Panel Soul iOS-Info.plist"; sourceTree = "<group>"; };
+		5A942F7B15A396B30079EAE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A942F7D15A396B30079EAE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A942F7F15A396B30079EAE3 /* Three Panel Soul iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Three Panel Soul iOS-Prefix.pch"; sourceTree = "<group>"; };
+		5A942F8015A396B30079EAE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A942F8115A396B30079EAE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A942F8415A396B30079EAE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		5A942F8715A396B40079EAE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		5A942F8915A396B40079EAE3 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		5A942F8A15A396B40079EAE3 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		5A942F8C15A396B40079EAE3 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		5A942F8E15A396B40079EAE3 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		5A942F9015A396B40079EAE3 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5A942F9115A396B40079EAE3 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5A942F9315A396B40079EAE3 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		5A942F9515A396B40079EAE3 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		5A942F9C15A396B40079EAE3 /* Three Panel Soul iOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Three Panel Soul iOSTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A942F9D15A396B40079EAE3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5A942FA515A396B40079EAE3 /* Three Panel Soul iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Three Panel Soul iOSTests-Info.plist"; sourceTree = "<group>"; };
+		5A942FA715A396B40079EAE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A942FA915A396B40079EAE3 /* Three_Panel_Soul_iOSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Three_Panel_Soul_iOSTests.h; sourceTree = "<group>"; };
+		5A942FAA15A396B40079EAE3 /* Three_Panel_Soul_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Three_Panel_Soul_iOSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A942F6A15A396B30079EAE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A942F7215A396B30079EAE3 /* UIKit.framework in Frameworks */,
+				5A942F7415A396B30079EAE3 /* Foundation.framework in Frameworks */,
+				5A942F7615A396B30079EAE3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A942F9815A396B40079EAE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A942F9E15A396B40079EAE3 /* SenTestingKit.framework in Frameworks */,
+				5A942F9F15A396B40079EAE3 /* UIKit.framework in Frameworks */,
+				5A942FA015A396B40079EAE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A942F6215A396B30079EAE3 = {
+			isa = PBXGroup;
+			children = (
+				5A942F7715A396B30079EAE3 /* Three Panel Soul iOS */,
+				5A942FA315A396B40079EAE3 /* Three Panel Soul iOSTests */,
+				5A942F7015A396B30079EAE3 /* Frameworks */,
+				5A942F6E15A396B30079EAE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A942F6E15A396B30079EAE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A942F6D15A396B30079EAE3 /* Three Panel Soul iOS.app */,
+				5A942F9C15A396B40079EAE3 /* Three Panel Soul iOSTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A942F7015A396B30079EAE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A942F7115A396B30079EAE3 /* UIKit.framework */,
+				5A942F7315A396B30079EAE3 /* Foundation.framework */,
+				5A942F7515A396B30079EAE3 /* CoreGraphics.framework */,
+				5A942F9D15A396B40079EAE3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A942F7715A396B30079EAE3 /* Three Panel Soul iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A942F8015A396B30079EAE3 /* AppDelegate.h */,
+				5A942F8115A396B30079EAE3 /* AppDelegate.m */,
+				5A942F8315A396B30079EAE3 /* MainStoryboard_iPhone.storyboard */,
+				5A942F8615A396B40079EAE3 /* MainStoryboard_iPad.storyboard */,
+				5A942F8915A396B40079EAE3 /* FirstViewController.h */,
+				5A942F8A15A396B40079EAE3 /* FirstViewController.m */,
+				5A942F8C15A396B40079EAE3 /* first.png */,
+				5A942F8E15A396B40079EAE3 /* first@2x.png */,
+				5A942F9015A396B40079EAE3 /* SecondViewController.h */,
+				5A942F9115A396B40079EAE3 /* SecondViewController.m */,
+				5A942F9315A396B40079EAE3 /* second.png */,
+				5A942F9515A396B40079EAE3 /* second@2x.png */,
+				5A942F7815A396B30079EAE3 /* Supporting Files */,
+			);
+			path = "Three Panel Soul iOS";
+			sourceTree = "<group>";
+		};
+		5A942F7815A396B30079EAE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A942F7915A396B30079EAE3 /* Three Panel Soul iOS-Info.plist */,
+				5A942F7A15A396B30079EAE3 /* InfoPlist.strings */,
+				5A942F7D15A396B30079EAE3 /* main.m */,
+				5A942F7F15A396B30079EAE3 /* Three Panel Soul iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A942FA315A396B40079EAE3 /* Three Panel Soul iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A942FA915A396B40079EAE3 /* Three_Panel_Soul_iOSTests.h */,
+				5A942FAA15A396B40079EAE3 /* Three_Panel_Soul_iOSTests.m */,
+				5A942FA415A396B40079EAE3 /* Supporting Files */,
+			);
+			path = "Three Panel Soul iOSTests";
+			sourceTree = "<group>";
+		};
+		5A942FA415A396B40079EAE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A942FA515A396B40079EAE3 /* Three Panel Soul iOSTests-Info.plist */,
+				5A942FA615A396B40079EAE3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A942F6C15A396B30079EAE3 /* Three Panel Soul iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A942FAE15A396B40079EAE3 /* Build configuration list for PBXNativeTarget "Three Panel Soul iOS" */;
+			buildPhases = (
+				5A942F6915A396B30079EAE3 /* Sources */,
+				5A942F6A15A396B30079EAE3 /* Frameworks */,
+				5A942F6B15A396B30079EAE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Three Panel Soul iOS";
+			productName = "Three Panel Soul iOS";
+			productReference = 5A942F6D15A396B30079EAE3 /* Three Panel Soul iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A942F9B15A396B40079EAE3 /* Three Panel Soul iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A942FB115A396B40079EAE3 /* Build configuration list for PBXNativeTarget "Three Panel Soul iOSTests" */;
+			buildPhases = (
+				5A942F9715A396B40079EAE3 /* Sources */,
+				5A942F9815A396B40079EAE3 /* Frameworks */,
+				5A942F9915A396B40079EAE3 /* Resources */,
+				5A942F9A15A396B40079EAE3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A942FA215A396B40079EAE3 /* PBXTargetDependency */,
+			);
+			name = "Three Panel Soul iOSTests";
+			productName = "Three Panel Soul iOSTests";
+			productReference = 5A942F9C15A396B40079EAE3 /* Three Panel Soul iOSTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A942F6415A396B30079EAE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Mac Hall Productions L.L.C.";
+			};
+			buildConfigurationList = 5A942F6715A396B30079EAE3 /* Build configuration list for PBXProject "Three Panel Soul iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5A942F6215A396B30079EAE3;
+			productRefGroup = 5A942F6E15A396B30079EAE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A942F6C15A396B30079EAE3 /* Three Panel Soul iOS */,
+				5A942F9B15A396B40079EAE3 /* Three Panel Soul iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A942F6B15A396B30079EAE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A942F7C15A396B30079EAE3 /* InfoPlist.strings in Resources */,
+				5A942F8515A396B30079EAE3 /* MainStoryboard_iPhone.storyboard in Resources */,
+				5A942F8815A396B40079EAE3 /* MainStoryboard_iPad.storyboard in Resources */,
+				5A942F8D15A396B40079EAE3 /* first.png in Resources */,
+				5A942F8F15A396B40079EAE3 /* first@2x.png in Resources */,
+				5A942F9415A396B40079EAE3 /* second.png in Resources */,
+				5A942F9615A396B40079EAE3 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A942F9915A396B40079EAE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A942FA815A396B40079EAE3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A942F9A15A396B40079EAE3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A942F6915A396B30079EAE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A942F7E15A396B30079EAE3 /* main.m in Sources */,
+				5A942F8215A396B30079EAE3 /* AppDelegate.m in Sources */,
+				5A942F8B15A396B40079EAE3 /* FirstViewController.m in Sources */,
+				5A942F9215A396B40079EAE3 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A942F9715A396B40079EAE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A942FAB15A396B40079EAE3 /* Three_Panel_Soul_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A942FA215A396B40079EAE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A942F6C15A396B30079EAE3 /* Three Panel Soul iOS */;
+			targetProxy = 5A942FA115A396B40079EAE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A942F7A15A396B30079EAE3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A942F7B15A396B30079EAE3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5A942F8315A396B30079EAE3 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A942F8415A396B30079EAE3 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5A942F8615A396B40079EAE3 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A942F8715A396B40079EAE3 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		5A942FA615A396B40079EAE3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A942FA715A396B40079EAE3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A942FAC15A396B40079EAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A942FAD15A396B40079EAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A942FAF15A396B40079EAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Three Panel Soul iOS/Three Panel Soul iOS-Prefix.pch";
+				INFOPLIST_FILE = "Three Panel Soul iOS/Three Panel Soul iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5A942FB015A396B40079EAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Three Panel Soul iOS/Three Panel Soul iOS-Prefix.pch";
+				INFOPLIST_FILE = "Three Panel Soul iOS/Three Panel Soul iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5A942FB215A396B40079EAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Three Panel Soul iOS.app/Three Panel Soul iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Three Panel Soul iOS/Three Panel Soul iOS-Prefix.pch";
+				INFOPLIST_FILE = "Three Panel Soul iOSTests/Three Panel Soul iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5A942FB315A396B40079EAE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Three Panel Soul iOS.app/Three Panel Soul iOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Three Panel Soul iOS/Three Panel Soul iOS-Prefix.pch";
+				INFOPLIST_FILE = "Three Panel Soul iOSTests/Three Panel Soul iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A942F6715A396B30079EAE3 /* Build configuration list for PBXProject "Three Panel Soul iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A942FAC15A396B40079EAE3 /* Debug */,
+				5A942FAD15A396B40079EAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A942FAE15A396B40079EAE3 /* Build configuration list for PBXNativeTarget "Three Panel Soul iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A942FAF15A396B40079EAE3 /* Debug */,
+				5A942FB015A396B40079EAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A942FB115A396B40079EAE3 /* Build configuration list for PBXNativeTarget "Three Panel Soul iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A942FB215A396B40079EAE3 /* Debug */,
+				5A942FB315A396B40079EAE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A942F6415A396B30079EAE3 /* Project object */;
+}
