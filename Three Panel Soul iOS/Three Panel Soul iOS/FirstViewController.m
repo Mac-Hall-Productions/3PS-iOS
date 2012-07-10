@@ -14,9 +14,15 @@
 
 @implementation FirstViewController
 
+@synthesize imageView = _imageView;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSURL* comicURL = [NSURL URLWithString:@"http://threepanelsoul.com/comics/2012-07-04-239.png"];
+    NSData* comicImageData = [NSData dataWithContentsOfURL:comicURL];
+    UIImage* comicImage = [UIImage imageWithData:comicImageData];
+    [_imageView setImage:comicImage];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
